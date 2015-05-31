@@ -1,0 +1,29 @@
+{
+    "name": "jlem/enum",
+    "type": "library",
+    "description": "Enumeration utility class",
+    "keywords": ["enum"],
+    "homepage": "http://github.com/jlem/enum",
+    "authors": [
+        {
+            "name": "Jon LeMaitre",
+            "homepage": "https://github.com/jlem"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jlem\\Enum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jlem\\Enum\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    }
+}
