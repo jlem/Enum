@@ -1,1 +1,1 @@
-PHP enumeration library
+PHP Enumeration Library
