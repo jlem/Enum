@@ -1,8 +1,8 @@
-<?php namespace Jlem\Enum\Tests;
+<?php namespace Jlem\Enum\Tests\Fixtures;
 
 use Jlem\Enum\Enum;
 
-class NumericEnumFixture extends Enum
+class NumericFixture extends Enum
 {
     const HAN = 1;
     const LUKE = 2;
