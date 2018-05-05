@@ -2,7 +2,7 @@
 
 use Jlem\Enum\Enum;
 
-class NumericFixture extends Enum
+final class NumericFixture extends Enum
 {
     const HAN = 1;
     const LUKE = 2;

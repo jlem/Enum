@@ -38,6 +38,18 @@ class NumericInstanceTest extends \PHPUnit_Framework_TestCase
         NumericFixture::LEIA();
     }
 
+
+    /**
+     * @expectedException InvalidArgumentException
+     * @expectedExceptionMessage Expected a numeric value
+     */
+
+    public function testInvalidStringArgumentThrowsExceptionWithRightMessage()
+    {
+        new NumericFixture("3");
+    }
+
+
     public function testValueConversion()
     {
         $instance = new NumericFixture(1);
